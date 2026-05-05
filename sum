@@ -72,3 +72,15 @@ public class KthSmallest {
         System.out.println(arr[k - 1]);
     }
 }
+//kth largest//
+import java.util.Arrays;
+
+public class KthLargest {
+    public static void main(String[] args) {
+        int[] arr = {10, 5, 20, 3, 8};
+        int k = 2;
+
+        Arrays.sort(arr);
+        System.out.println(arr[arr.length - k]);
+    }
+}
