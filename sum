@@ -165,3 +165,17 @@ public class Main {
         System.out.println(reversed.trim());
     }
 }
+//string to ijt reverse words//
+public class Main {
+    public static void main(String[] args) {
+        String s = "hello deekshiiii..";
+        String[] words = s.split(" ");
+        
+        String reversed = "";
+        for (int i = words.length - 1; i >= 0; i--) {
+            reversed += words[i] + " ";
+        }
+        
+        System.out.println(reversed.trim());
+    }
+}
