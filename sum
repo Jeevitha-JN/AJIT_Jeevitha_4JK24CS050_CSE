@@ -189,3 +189,15 @@ public class VowelConsonantCount {
         sc.close();
     }
 }
+//Array List//
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Java");
+        list.add("Python");
+        list.add("java");
+        list.set(0, "jeevi"); 
+        System.out.println(list);
+    }
+}
