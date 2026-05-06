@@ -236,3 +236,19 @@ public class Main {
         System.out.println(list.get(0));
     }
 }
+////
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+
+        list.add("Java");
+        list.add("Python");
+        list.add("java");
+
+        list.set(0, "jeevi"); 
+
+        System.out.println(list);
+    }
+}
