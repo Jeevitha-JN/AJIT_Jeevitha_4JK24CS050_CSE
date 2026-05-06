@@ -201,3 +201,20 @@ public class Main {
         System.out.println(list);
     }
 }
+//Duplicate characters//
+public class Main {
+    public static void main(String[] args) {
+        String str = "programming";
+        str = str.toLowerCase();
+        int[] count = new int[256];
+        for (int i = 0; i < str.length(); i++) {
+            count[str.charAt(i)]++;
+        }
+        System.out.println("Duplicate characters:");
+        for (int i = 0; i < 256; i++) {
+            if (count[i] > 1) {
+                System.out.println((char) i + " -> " + count[i]);
+            }
+        }
+    }
+}
